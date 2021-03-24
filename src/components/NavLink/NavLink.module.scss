@@ -1,0 +1,28 @@
+.Link {
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    font-family: "Raleway",sans-serif;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &__Icon {
+        color:#F4796C;
+        margin-right: 5px;
+        text-align: center;
+    }
+
+    &__Title {
+        color:#183354;
+        font-size: 12px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        
+        &:hover {
+            color:#F4796C;
+        }
+    }
+}

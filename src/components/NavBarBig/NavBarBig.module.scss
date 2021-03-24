@@ -1,0 +1,41 @@
+.NavBar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    border-bottom: 15px solid #183354;
+    position: fixed;
+    padding: 20px;
+
+    &__logo {
+        height: 60px;
+        width: 100%;
+        margin-left: 290px;
+        
+        &_scroll {
+            height: 40px;
+        }
+        
+        &:hover {
+            filter: brightness(150%);
+            transition-delay: .4s;
+        }
+    }
+
+    &__right {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 350px;
+    }
+
+    &__scroll {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        border-bottom: 2px solid #183354;
+        position: fixed;
+        padding: 5px;
+    }
+}

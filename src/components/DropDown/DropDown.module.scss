@@ -1,0 +1,32 @@
+.dropDown {
+    &__title {
+        font-family: "Raleway",sans-serif;
+        font-size: 12px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        color:#183354;
+        margin-top: -18px;
+        
+        &:hover {
+            color:#F4796C;
+        }
+    }
+
+    &__menu {
+        color: #fff;
+        background: #183354;
+        text-transform: none;
+        text-align: center;
+        font-size: 12px;
+
+        &:hover {
+            color: #fff;
+            background-color:#F4796C;
+        }
+    }
+}
+
+#dropdown_basic::after{
+    display: none; 
+}

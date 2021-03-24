@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from './containers/Nav';
+import BannerLayout from './containers/BannerLayout';
+import HeartyFaves from './containers/HeartyFaves/HeartyFaves';
+import recipes from './data/recipes.js';
+import React, { useState } from "react";
 
-function App() {
+
+const App = () => {
+  const [search, setSearch] = useState("");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav placeholder="Search Recipes ..." setSearch={setSearch}/>
+      <HeartyFaves recipes={recipes}/>
+      <BannerLayout />
+    </>
   );
-}
+};
 
 export default App;

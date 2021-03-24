@@ -1,0 +1,18 @@
+.Hearty {
+    background-color: #F6F5F3;  
+    position: relative; 
+
+    &__Cards {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    
+    &__Sticker {
+        position: absolute;
+        padding: 4px;
+        top: 50px;
+        left: 320px;
+        z-index: 10;
+    }
+}
