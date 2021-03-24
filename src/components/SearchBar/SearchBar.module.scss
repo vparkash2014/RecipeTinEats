@@ -7,11 +7,13 @@
         justify-content: space-between;
         align-items: center;
         background-color: #fff;
+        height: 35px;
     }
     &__Input {
-        font-size: 24px;
+        font-size: 18px;
         padding: 8px 0px 8px 16px;
         margin-left: 1px;
+        background-color: none;
         border: none;
         outline:none;
         color:#C4C3C1;
@@ -21,6 +23,6 @@
     &__Icon {
         color:#F4796C;
         font-size:x-large;
-        padding: 8px 16px 8px 20px;
+        margin: 8px 6px 8px 20px;
     }
 }
