@@ -2,7 +2,7 @@ import styles from './SpNavLink.module.scss';
 
 const SpNavLink = ({ title, icon, link }) => {
     return (
-        <div>
+        <div  >
             <a href={link} className={styles.Link}>
                 <img className={styles.Link__Icon} src = {icon}/>
                 <p className={styles.Link__Title}>{title}</p>

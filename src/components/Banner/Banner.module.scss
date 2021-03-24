@@ -1,14 +1,8 @@
 .Banner {
-    background: #183354;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 95px;
-
     &__icon {
         color: #F4796C;
         margin: 15px;
-    };
+    }
 
     &__title {
         margin: 15px;

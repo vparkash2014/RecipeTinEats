@@ -1,7 +1,7 @@
 .Link {
     text-decoration: none;
     display: flex;
-    align-items: center;
+    align-content: center;
     font-family: "Raleway",sans-serif;
 
     &:hover {
@@ -9,12 +9,12 @@
     }
     
     &__Icon {
-        margin: 5px;
-        height: 20px;
+        height: 15px;
     }
+
     &__Title {
         color:#183354;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: 800;
         text-transform: uppercase;
         letter-spacing: .1em;
@@ -42,6 +42,7 @@
         background-position-x: -30%;
         background-position-y: 0px;
     }
+    
     33.3333%, 100% {
         background-position: -230% 0;
         background-position-x: -230%;

@@ -19,9 +19,12 @@ const NavBarSmall = () => {
     };
 
     return (
-        <Navbar position="fixed" className={styles.Navbar}>
+        <div>
+            <Navbar position="fixed" className={styles.Navbar}>
             {navMenu.map(section => displayMenuItem(section) )}
-        </Navbar>
+        </Navbar> 
+        </div>
+
     );
 };
 
