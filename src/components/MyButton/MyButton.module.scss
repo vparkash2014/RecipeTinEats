@@ -1,0 +1,15 @@
+.MyBtn {
+    background: #F4796C;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-family: "Raleway",sans-serif;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 12px;
+
+    &:hover {
+        background: #f74e3c;
+    }
+}

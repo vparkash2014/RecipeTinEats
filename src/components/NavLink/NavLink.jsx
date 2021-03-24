@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import styles from './NavLink.module.scss';
 
 
-
 const NavLink = ({ menu, title, link, icon }) => {
 
     return (
