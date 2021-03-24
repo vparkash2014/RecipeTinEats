@@ -1,0 +1,26 @@
+.Search {
+    &__Container {
+        border: 1px solid #AFABAE;
+        border-radius: 100px;
+        padding: 6.5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+    }
+    &__Input {
+        font-size: 24px;
+        padding: 8px 0px 8px 16px;
+        margin-left: 1px;
+        border: none;
+        outline:none;
+        color:#C4C3C1;
+        font-weight:500;
+        opacity: 0.5;
+    }
+    &__Icon {
+        color:#F4796C;
+        font-size:x-large;
+        padding: 8px 16px 8px 20px;
+    }
+}
