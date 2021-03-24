@@ -1,0 +1,25 @@
+.Sticker {
+    &__Container {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        background-color: hsla(0, 0, 95%, 0.35); 
+        font-size: 15px;
+        line-height: 1;
+        transform: rotate(-16deg);
+        position: absolute;
+        padding: 4px;
+        top: 16px;
+        left: 8px;
+    }
+    &__Text {
+        font-family: "Raleway",sans-serif;
+        font-weight: 800;
+        letter-spacing: .075em;
+        text-transform: uppercase;
+        margin: 4px;
+    }
+}
