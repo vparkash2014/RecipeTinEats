@@ -1,0 +1,14 @@
+.Social {
+    &__btn {
+        padding: 20px;
+        background-color: #DCE8E8;
+        color: #183354;
+        border-radius: 100%;
+
+        &:hover {
+            background-color: #183354;
+            color: #fff;
+            transition-delay: 1s;
+        }
+    }
+}
