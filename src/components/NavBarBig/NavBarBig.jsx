@@ -5,7 +5,7 @@ import styles from './NavBarBig.module.scss'
 import SocialList from './../SocialList';
 import { useState } from 'react';
 
-const NavBarBig = () => {
+const NavBarBig = ({placeholder, setSearch}) => {
     const [scroll, setScroll] = useState(false);
 
     const changeNavBar = () => {
@@ -23,9 +23,8 @@ const NavBarBig = () => {
                 <img className={scroll ? styles.NavBar__logo_scroll : styles.NavBar__logo} alt="" src={logo}/>
             </Navbar.Brand>
             <div className={styles.NavBar__right}>
-                <SearchBar />
-                <SocialList />
-                
+                <SearchBar placeholder={placeholder} setSearch={setSearch}/>
+                <SocialList />  
             </div>
         </Navbar>
     );

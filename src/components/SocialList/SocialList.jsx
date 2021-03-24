@@ -7,7 +7,7 @@ const SocialList = () => {
     const medias = [faInstagram, faFacebookF, faPinterestP, faYoutube]
     return (
         <div className={styles.SocialList}>
-            {medias.map(icon => <SocialIconBtn link='/' icon={icon} size = "2x"/>)}
+            {medias.map(icon => <SocialIconBtn link='/' icon={icon} />)}
         </div>
     );
 };

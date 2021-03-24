@@ -1,10 +1,10 @@
 import NavBarBig from './../../components/NavBarBig';
 import NavBarSmall from './../../components/NavBarSmall';
 
-const Nav = () => {
+const Nav = ( {placeholder, setSearch} ) => {
     return(
         <>
-            <NavBarBig />
+            <NavBarBig placeholder={placeholder} setSearch={setSearch}/>
             <NavBarSmall />
         </>
     );

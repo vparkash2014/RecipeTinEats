@@ -1,11 +1,13 @@
 .Hearty {
-    background: #C4C3C1;  
+    background-color: #F6F5F3;  
     position: relative; 
+
     &__Cards {
         display: flex;
         justify-content: center;
         position: relative;
     }
+    
     &__Sticker {
         position: absolute;
         padding: 4px;

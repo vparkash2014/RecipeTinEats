@@ -4,19 +4,23 @@
         width:350px; 
         margin: 25px; 
     }
+
     &__Category {
         &_Container {
             position: relative;
         }
+
         &_Img {
             width:350px;
             height:350px;
             position: relative;
+
             &:hover {
                 opacity: 0.5;
                 transition: .4s;
             }
         }
+
         &_Link {
             text-decoration: none;
             background-color: #fff;
@@ -37,15 +41,18 @@
     &__Meal {
         background-color: #fff;
         text-align: center;
+
         &_Link {
             text-decoration: none;
         }
+
         &_Name {
             text-align: center;
             color:#183354;
             font-weight:700; 
             margin:0;
         }
+        
         &_Desc {
             font-size: 12px;
             letter-spacing: .05em;

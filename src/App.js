@@ -1,19 +1,20 @@
-import './App.css';
+import styles from './App.module.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './containers/Nav';
-import Banner from './components/Banner';
-import { faUtensils } from '@fortawesome/free-solid-svg-icons';
+import BannerLayout from './containers/BannerLayout';
 import HeartyFaves from './containers/HeartyFaves/HeartyFaves';
 import recipes from './data/recipes.js';
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import React, { useState } from "react";
 
 
 const App = () => {
+  const [search, setSearch] = useState("");
+
   return (
     <>
-      <Nav />
+      <Nav placeholder="Search Recipes ..." setSearch={setSearch}/>
       <HeartyFaves recipes={recipes}/>
-      <Banner title="quick dinner recipes" text="you can make tonight!" icon={faUtensils} />
+      <BannerLayout />
     </>
   );
 };

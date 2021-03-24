@@ -1,19 +1,25 @@
 .Social {
     &__btn {
         text-align: center;
-        vertical-align: middle;
-        height: 30px;
-        // width: 00%;
+        line-height: 0;
+        width: 36px;
         background-color: #DCE8E8;
         color: #183354;
         border-radius: 100%;
+        padding-top: 0;
+        margin-top: 0;
         margin-left: 8px;
         margin-right: 8px;
+        padding: 8px; 
 
         &:hover {
             background-color: #183354;
             color: #fff;
             transition-delay: .1s;
         }
+    }
+    
+    &__Icon {
+        font-size: 18px;
     }
 }
