@@ -1,0 +1,55 @@
+.Card {
+    &__Container {
+        font-family: "Raleway",sans-serif;
+        width:350px;  
+    }
+    &__Category {
+        &_Container {
+            position: relative;
+        }
+        &_Img {
+            width:350px;
+            height:350px;
+            position: relative;
+            &:hover {
+                opacity: 0.5;
+                transition: .4s;
+            }
+        }
+        &_Link {
+            text-decoration: none;
+            background-color: #fff;
+            color: #b7b2ac;
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: .075em;
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #fff;
+            padding: 8px 16px 0px 16px;
+        }  
+    }
+
+    &__Meal {
+        background-color: #fff;
+        text-align: center;
+        &_Link {
+            text-decoration: none;
+        }
+        &_Name {
+            text-align: center;
+            color:#183354;
+            font-weight:700; 
+            margin:0;
+        }
+        &_Desc {
+            font-size: 12px;
+            letter-spacing: .05em;
+            color: #AFABAE;
+            margin: 5px 10px;
+        }
+    }
+}
